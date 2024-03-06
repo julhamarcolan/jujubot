@@ -1,6 +1,4 @@
 import google.generativeai as genai
-
-# https://aistudio.google.com/app/apikey
 import env 
 
 def ia_chat(user_msg):
@@ -13,10 +11,7 @@ def ia_chat(user_msg):
     
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(user_msg)
-    #print(response.text)
     msg = response.text
     
-    # Speech Analysis
-    #print(response.prompt_feedback)
     return msg
 
