@@ -47,4 +47,4 @@ OBS: O passo a passo está correto para o windows. Outros sistemas operacionais 
    * Rode o arquivo main.py para iniciar a execução do ChatBot.
    * Abra o Bot no telegram e inicie a conversa. 
 
-= )
+**Observação importante:** Caso for publicar a sua versão desse Bot em um reprositório público não se esqueça de listar  o arquivo 'env.py' em um arquivo .gitignore para não correr o risco de suas chaves serem compartilhadas na internet! 
