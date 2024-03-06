@@ -3,7 +3,7 @@ import google.generativeai as genai
 # https://aistudio.google.com/app/apikey
 import env 
 
-def ia(user_msg):
+def ia_chat(user_msg):
   
     genai.configure(api_key= env.GOOGLE_API_KEY)
     
