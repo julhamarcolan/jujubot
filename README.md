@@ -9,7 +9,22 @@ Este é um guia passo a passo para configurar o ambiente e as dependências nece
 **Passos**
  1. **Criar Ambiente Virtual:** Crie um ambiente virtual para isolar as dependências do seu projeto. Isso garante que as bibliotecas necessárias não interfiram com outros projetos.
 
- 2. **Instalar Dependências:** Utilize o pip para instalar as bibliotecas necessárias, executando o seguinte comando:
+Passo a passo para o windows  
+
+    * Instale o virtualenv (caso não tenha): 
+      ~~~Python
+      pip install virtualenv
+      ~~~
+   * Cria uma máquina virtual:
+      ~~~Python
+      python -m venv vm
+      ~~~
+     * Ativar maquina Virtual:
+      ~~~Python
+      vm\Scripts\activate
+      ~~~
+
+ 3. **Instalar Dependências:** Utilize o pip para instalar as bibliotecas necessárias, executando o seguinte comando:
    ~~~Python
    pip install telepot
    ~~~
