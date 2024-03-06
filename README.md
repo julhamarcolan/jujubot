@@ -10,22 +10,23 @@ Este é um guia passo a passo para configurar o ambiente e as dependências nece
  1. **Criar Ambiente Virtual:** Crie um ambiente virtual para isolar as dependências do seu projeto. Isso garante que as bibliotecas necessárias não interfiram com outros projetos
 
   * Instale o virtualenv (caso não tenha): 
-      ~~~Python
+      ~~~bash
       pip install virtualenv
       ~~~
   * Cria uma máquina virtual:
-      ~~~Python
+      ~~~bash
       python -m venv vm
       ~~~
   * Ativar maquina Virtual:
-      ~~~Python
+      ~~~bash
       vm\Scripts\activate
       ~~~
 OBS: O passo a passo está correto para o windows. Outros sistemas operacionais podem apresentar diferenças. 
 
  3. **Instalar Dependências:** Utilize o pip para instalar as bibliotecas necessárias, executando o seguinte comando:
-   ~~~Python
+   ~~~bash
    pip install telepot
+   pip install -q -U google-generativeai
    ~~~
  3. **Gerar Token do ChatBot:**
      * Acesse o aplicativo Telegram e procure por @BotFather. Inicie uma conversa clicando sobre ele.
@@ -38,7 +39,7 @@ OBS: O passo a passo está correto para o windows. Outros sistemas operacionais 
  5. **Criar Arquivo 'env.py':**
    * Crie um arquivo chamado env.py no diretório raiz do seu projeto.
    * Adicione o token do Telegram e a chave da API Gemini no seguinte formato:
-       ~~~Python
+       ~~~bash
        TOKEN = 'INSIRA AQUI O TOKEN QUE VOCÊ GEROU NO TELEGRAM' 
        GOOGLE_API_KEY =  'INSIRA AQUI A CHAVE GERADA NA API GEMINI'
        ~~~
