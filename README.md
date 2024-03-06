@@ -23,7 +23,7 @@ Este é um guia passo a passo para configurar o ambiente e as dependências nece
       ~~~
 OBS: O passo a passo está correto para o windows. Outros sistemas operacionais podem apresentar diferenças. 
 
- 3. **Instalar Dependências:** Utilize o pip para instalar as bibliotecas necessárias, executando o seguinte comando:
+ 3. **Instalar Dependências:** Utilize o pip para instalar as bibliotecas necessárias, executando os comandos:
    ~~~bash
    pip install telepot
    pip install -q -U google-generativeai
