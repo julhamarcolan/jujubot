@@ -9,15 +9,15 @@ Este é um guia passo a passo para configurar o ambiente e as dependências nece
 **Passos**
  1. **Criar Ambiente Virtual:** Crie um ambiente virtual para isolar as dependências do seu projeto. Isso garante que as bibliotecas necessárias não interfiram com outros projetos
 
-    * Instale o virtualenv (caso não tenha): 
+  * Instale o virtualenv (caso não tenha): 
       ~~~Python
       pip install virtualenv
       ~~~
-   * Cria uma máquina virtual:
+  * Cria uma máquina virtual:
       ~~~Python
       python -m venv vm
       ~~~
-     * Ativar maquina Virtual:
+  * Ativar maquina Virtual:
       ~~~Python
       vm\Scripts\activate
       ~~~
